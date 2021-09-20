@@ -13,7 +13,7 @@
     backdrop-filter: blur(5px);
 }
 
-.nav_logo {
+.nav img {
     height: 3.5rem;
 }
 
@@ -21,6 +21,7 @@
     text-decoration: none;
     font-size: 1.2rem;
     color: #5555;
+    margin-left: 4rem;
     transition: color 1s;
 }
 
