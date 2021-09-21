@@ -34,6 +34,37 @@
     list-style: none;
 }
 
-.nav_item {
-    margin-left: 4rem;
+@media only screen and (max-width: 900px) {
+    .nav .nav_links a {
+        width: 70px;
+        display: none;
+    }
+    .nav img {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav .nav_links a {
+        display: none;
+    }
+
+    .nav .nav_link {
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+
+    .nav .nav_links button {
+        display: inherit;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .nav .nav_links button {
+        display: none;
+    }
+
+    .hiddenLinks {
+        display: none;
+    }
 }
