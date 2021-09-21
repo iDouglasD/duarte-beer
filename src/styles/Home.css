@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
 .container {
     height: 100vh;
     background-color: black;
@@ -6,42 +8,48 @@
     display: flex;
 }
 
-.container .content_container {
+.container .content {
     margin-left: 4rem;
 }
 
-.container .content_container h1 {
-    justify-content: center;
-    align-items: center;
-    font-size: 90px;
-    height: 60px;
+.container .content h1 {
+    font-size: 6rem;
     font-weight: 50;
-    color: rgb(241, 91, 4);
+    background: -webkit-linear-gradient(rgb(230, 177, 34), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
 }
 
-.container .content_container p {
-    padding: 0;
-    font-size: 40px;
+.container .content p {
+    font-size: 3rem;
     font-weight: lighter;
-    color: rgb(39, 38, 38);
+    background: -webkit-linear-gradient(rgb(124, 124, 124), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -4rem;
+    margin-left: 5rem;
 }
 
-.container .content_container button {
-    color: rgb(255, 180, 6);
+.container .content button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
     justify-content: center;
-    background-color: rgb(231, 142, 83);
+    background-color: rgb(248, 160, 44);
     height: 50px;
-    width: 180px;
-    color: white;
+    width: 10rem;
+    color: rgb(39, 37, 37);
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
     font-size: 20px;
+    margin-top: -4rem;
+    margin-left: 10rem;
 }
 
-.container .content_container button:hover {
-    background-color: #ff8800;
+.container .content button:hover {
+    background-color: #eb9e10;
     cursor: pointer;
     transition: 0.3s ease-in;
 }
@@ -56,22 +64,4 @@
     from {
         transform: translate(-25%, 5%) rotate(-5deg);
     }
-}
-
-.highlight {
-    position: relative;
-}
-
-.highlight::after {
-    display: block;
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.7;
-    transform: scale(1.07, 1.05) skewX(-15deg);
-    background-image: linear-gradient(to top left, #39b385, #9be15d);
 }
