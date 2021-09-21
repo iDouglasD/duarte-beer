@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/NavBar.css";
 import Logo from "../assets/logo.png";
+import ReorderIcon from "@material-ui/icons/Reorder";
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -21,6 +22,9 @@ function NavBar() {
                     Contato
                 </Link>
             </div>
+            <button>
+                <ReorderIcon sx={{ color: "orange" }} />
+            </button>
         </div>
     );
 }
