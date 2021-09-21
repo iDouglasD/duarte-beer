@@ -101,7 +101,7 @@
     .img_wrapper img {
         width: 50%;
         flex-wrap: wrap;
-        margin-top: -10rem;
+        margin-top: -8rem;
         margin-left: 7rem;
     }
 }

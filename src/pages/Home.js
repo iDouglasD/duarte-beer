@@ -9,7 +9,7 @@ function Home() {
             <div className="content">
                 <h1 ClassName="highlight">Duarte's Beer</h1>
                 <p>TEMOS álcool EM COMUM!</p>
-                <Link to="/contato">
+                <Link to="/cervejas">
                     <button>PARTIU ?</button>
                 </Link>
             </div>
