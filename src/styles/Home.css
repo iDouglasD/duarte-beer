@@ -65,3 +65,59 @@
         transform: translate(-25%, 5%) rotate(-5deg);
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .container .content {
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container .content h1 {
+        font-size: 3rem;
+        font-weight: 50;
+        margin-left: 3rem;
+    }
+
+    .container .content p {
+        font-size: 1.2rem;
+        margin-top: -1.5rem;
+        margin-left: 3rem;
+    }
+
+    .container .content button {
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        justify-content: center;
+        height: 2.5rem;
+        width: 6rem;
+        font-size: 1rem;
+        margin-top: -4rem;
+        margin-left: 3rem;
+    }
+    .img_wrapper img {
+        width: 60%;
+        transform: translate(5%, 10%) rotate(10deg);
+        animation: moveBeer 2s infinite alternate ease-in-out;
+        flex-wrap: wrap;
+        margin-top: -10rem;
+        margin-left: 7rem;
+    }
+
+    @keyframes moveBeer {
+        from {
+            transform: translate(-5%, 10%) rotate(-5deg);
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
