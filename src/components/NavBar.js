@@ -7,24 +7,18 @@ import { Link } from "react-router-dom";
 function NavBar() {
     return (
         <div className="nav">
-            <img src={Logo}></img>
-            <div className="nav_links">
-                <Link className="nav_link" to="/">
-                    Início
-                </Link>
-                <Link className="nav_link" to="/sobre">
-                    Sobre
-                </Link>
-                <Link className="nav_link" to="/depoimentos">
-                    Depoimentos
-                </Link>
-                <Link className="nav_link" to="/contato">
-                    Contato
-                </Link>
+            <div className="nav_logo">
+                <img src={Logo}></img>
             </div>
-            <button>
-                <ReorderIcon sx={{ color: "orange" }} />
-            </button>
+            <div className="nav_links">
+                <Link to="/">Início</Link>
+                <Link to="/sobre">Sobre</Link>
+                <Link to="/depoimentos">Depoimentos</Link>
+                <Link to="/contato">Contato</Link>
+                <button>
+                    <ReorderIcon sx={{ color: "orange" }} />
+                </button>
+            </div>
         </div>
     );
 }
