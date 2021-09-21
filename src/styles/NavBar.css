@@ -4,7 +4,7 @@
     align-items: center;
     height: 5rem;
     width: 100%;
-    padding: 0 6rem;
+    padding: 0 4rem;
 
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -18,15 +18,17 @@
 }
 
 .nav_link {
+    font-family: "Poppins" bold, sans-serif;
     text-decoration: none;
-    font-size: 1.2rem;
-    color: #5555;
+    font-size: 1.1rem;
+    color: rgb(250, 205, 142);
     margin-left: 4rem;
     transition: color 1s;
+    z-index: 10;
 }
 
 .nav_link:hover {
-    color: #000;
+    color: rgb(250, 124, 6);
 }
 
 .nav_links {
