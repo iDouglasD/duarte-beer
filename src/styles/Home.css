@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 900px) {
     .container .content {
-        margin-left: 0.5rem;
+        margin-left: 1.2rem;
         align-items: center;
         margin-top: 1rem;
     }
@@ -87,15 +87,15 @@
 
     .container .content p {
         font-size: 1.2rem;
-        margin-top: -1.5rem;
+        margin-top: -1rem;
         margin-left: 6rem;
     }
 
     .container .content button {
-        height: 2rem;
+        height: 3rem;
         width: 6rem;
-        font-size: 1.1rem;
-        margin-top: -4rem;
+        font-size: 1rem;
+        margin-top: 0.5rem;
         margin-left: 9rem;
     }
     .img_wrapper img {

@@ -82,7 +82,7 @@
         width: 4.4rem;
     }
     .nav .nav_logo {
-        padding-left: 3rem;
+        padding-left: 4rem;
     }
 }
 
@@ -93,7 +93,7 @@
 
     .nav .nav_links {
         justify-content: flex-end;
-        padding-right: 2.5rem;
+        padding-right: 4rem;
     }
 
     .nav .nav_links button {
