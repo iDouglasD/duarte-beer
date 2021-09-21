@@ -1,20 +1,16 @@
-.home {
-    width: 100%;
-    height: 70vh;
+.container {
+    height: 100vh;
+    background-color: black;
+}
+.container {
     display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.content_container {
+.container .content_container {
     margin-left: 4rem;
 }
 
-.content_container h1 {
+.container .content_container h1 {
     justify-content: center;
     align-items: center;
     font-size: 90px;
@@ -23,14 +19,14 @@
     color: rgb(241, 91, 4);
 }
 
-.content_container p {
+.container .content_container p {
     padding: 0;
     font-size: 40px;
     font-weight: lighter;
     color: rgb(39, 38, 38);
 }
 
-.content_container button {
+.container .content_container button {
     color: rgb(255, 180, 6);
     border: none;
     border-radius: 5px;
@@ -44,8 +40,38 @@
     font-size: 20px;
 }
 
-.content_container button:hover {
+.container .content_container button:hover {
     background-color: #ff8800;
     cursor: pointer;
     transition: 0.3s ease-in;
+}
+
+.img_wrapper img {
+    width: 80%;
+    transform: translate(5%, 10%) rotate(10deg);
+    animation: moveBeer 2s infinite alternate ease-in-out;
+}
+
+@keyframes moveBeer {
+    from {
+        transform: translate(-25%, 5%) rotate(-5deg);
+    }
+}
+
+.highlight {
+    position: relative;
+}
+
+.highlight::after {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    transform: scale(1.07, 1.05) skewX(-15deg);
+    background-image: linear-gradient(to top left, #39b385, #9be15d);
 }
