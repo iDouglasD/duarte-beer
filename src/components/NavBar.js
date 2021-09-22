@@ -18,7 +18,7 @@ function NavBar() {
                 <div className="hiddenLinks">
                     <Link to="/">Início</Link>
                     <Link to="/sobre">Sobre</Link>
-                    <Link to="/produtos">Produtos</Link>
+                    <Link to="/cervejas">Brejas</Link>
                     <Link to="/contato">Contato</Link>
                 </div>
             </div>
