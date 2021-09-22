@@ -14,7 +14,7 @@ export const BeerList = [
     {
         name: "Abusiva",
         image: Artesanal2,
-        description: "Cerveja só faz mal quando falta!",
+        description: "Preciso largar essa vida!",
     },
     {
         name: "Sofrência",
@@ -34,6 +34,6 @@ export const BeerList = [
     {
         name: "OndéQueÔto",
         image: Artesanal6,
-        description: "Tô muito louco!",
+        description: "Nunca nem vi!",
     },
 ];
