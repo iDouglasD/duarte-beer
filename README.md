@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Duarte's Beer" title="Duarte's Beer" src=""  />
+  <img alt="Duarte's Beer" title="Duarte's Beer" src= "src/assets/logo.png"  />
 </h1>
 
 <p align="center">
