@@ -86,7 +86,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .nav .nav_links a {
         display: none;
     }
