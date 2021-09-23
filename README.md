@@ -34,7 +34,7 @@ Website de marketing desenvolvido em React.js para a divulgação de uma empresa
 
 ## 🔖 Layout
 
-Em desenvolvimento....
+-   https://duarte-beer.netlify.app/
 
 ## 🏁 Icones
 
