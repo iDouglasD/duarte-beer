@@ -7,9 +7,13 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#-icones">Ícones</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 <br>
+
+<p align="center">
+  <img alt="Move.it" src="src/assets/mockup.png" width="90%">
+</p>
 
 ## 🚀 Tecnologias
 
@@ -22,11 +26,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Bibliotecas
 
--
+-   [Material-UI](https://material-ui.com/pt/components/material-icons/)
 
 ## 💻 Projeto
 
-Landing page de marketing desenvolvida em React.js para a divulgação de uma empresa de cerveja artesanal.
+Website de marketing desenvolvido em React.js para a divulgação de uma empresa de cerveja artesanal.
 
 ## 🔖 Layout
 
