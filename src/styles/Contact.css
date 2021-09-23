@@ -1,0 +1,268 @@
+.contact {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.contact .left_side_form {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact .right_side_form {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact .right_side_form h1 {
+    font-family: "Poppins", sans-serif;
+    color: #eb9e10;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+
+form input {
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid #eb9e10;
+}
+
+form textarea {
+    margin-top: 0.2rem;
+    height: 70px;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid #eb9e10;
+    color: rgb(153, 153, 153);
+}
+
+form label {
+    margin-top: 15px;
+    color: #eb9e10;
+}
+
+form button {
+    margin-top: 40px;
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid #eb9e10;
+    border-radius: 2rem;
+    background: transparent;
+    color: rgb(245, 225, 110);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+    .contact {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .contact .left_side_form {
+        height: 80%;
+        flex: 50%;
+    }
+
+    .contact .right_side_form {
+        height: 100%;
+        flex: 50%;
+    }
+
+    .contact .right_side_form h1 {
+        font-size: 50px;
+        margin-left: 30px;
+    }
+
+    form {
+        width: auto;
+        height: auto;
+        padding: 30px;
+    }
+
+    form input {
+        height: 40px;
+        width: 80%;
+    }
+
+    form textarea {
+        margin-top: 0.2rem;
+        height: 70px;
+        width: 80%;
+    }
+
+    form label {
+        margin-top: 15px;
+    }
+
+    form button {
+        margin-top: 40px;
+        width: 10rem;
+        height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .contact .left_side_form {
+        height: 60%;
+        flex: 50%;
+    }
+
+    .contact .right_side_form {
+        height: 60%;
+        flex: 50%;
+    }
+
+    .contact .right_side_form h1 {
+        font-size: 50px;
+        margin-left: 30px;
+    }
+
+    form {
+        width: auto;
+        height: auto;
+        padding: 30px;
+    }
+
+    form input {
+        height: 40px;
+        width: 80%;
+    }
+
+    form textarea {
+        margin-top: 0.2rem;
+        height: 70px;
+        width: 80%;
+    }
+
+    form label {
+        margin-top: 15px;
+    }
+
+    form button {
+        margin-top: 40px;
+        width: 10rem;
+        height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .contact {
+        width: 100%;
+        margin-top: 10rem;
+        height: 80vh;
+    }
+
+    .contact .left_side_form {
+        height: 40%;
+        flex: 50%;
+    }
+
+    .contact .right_side_form {
+        height: 40%;
+        flex: 50%;
+    }
+
+    .contact .right_side_form h1 {
+        font-size: 0.4rem;
+        margin-left: 1rem;
+    }
+
+    form {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+    }
+
+    form input {
+        height: 2.2rem;
+        width: 80%;
+    }
+
+    form textarea {
+        margin-top: 0.2rem;
+        height: 70px;
+        width: 80%;
+    }
+
+    form label {
+        margin-top: 15px;
+    }
+
+    form button {
+        margin-top: 40px;
+        width: 10rem;
+        height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        width: 100%;
+        margin-top: 10rem;
+        height: 80vh;
+    }
+
+    .contact .left_side_form {
+        height: 40%;
+        flex: 50%;
+    }
+
+    .contact .right_side_form {
+        height: 40%;
+        flex: 50%;
+    }
+
+    .contact .right_side_form h1 {
+        font-size: 3rem;
+        margin-right: 2.2rem;
+    }
+
+    form {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+    }
+
+    form input {
+        height: 2.2rem;
+        width: 80%;
+    }
+
+    form textarea {
+        margin-top: 0.2rem;
+        height: 70px;
+        width: 80%;
+    }
+
+    form label {
+        margin-top: 15px;
+    }
+
+    form button {
+        margin-top: 40px;
+        width: 10rem;
+        height: 3rem;
+    }
+}
